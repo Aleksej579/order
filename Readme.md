@@ -35,4 +35,6 @@ vue add router
 npm run dev
 npm install --save element-plus
 npx vue-cli-service build
-vue add netlify-lambda
+fy-lambda
+
+vue add netli![order](https://user-images.githubusercontent.com/16978473/138597266-89c6f7cf-525c-42a8-acc0-fcd8ddcb5df2.jpg)
