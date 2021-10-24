@@ -21,6 +21,9 @@ This project use next tools
 `npm install -D sass-loader sass`
 ## add style css element+
 `npm install element-plus --save`
+![order](https://user-images.githubusercontent.com/16978473/138597365-5909bec5-a328-40b3-a5a8-b8a512cecfa3.jpg)
+
+
 
 ~~~ npm init vite-app order ~~~
 cd order
@@ -36,5 +39,3 @@ npm run dev
 npm install --save element-plus
 npx vue-cli-service build
 fy-lambda
-
-vue add netli![order](https://user-images.githubusercontent.com/16978473/138597266-89c6f7cf-525c-42a8-acc0-fcd8ddcb5df2.jpg)
