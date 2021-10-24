@@ -21,21 +21,7 @@ This project use next tools
 `npm install -D sass-loader sass`
 ## add style css element+
 `npm install element-plus --save`
+
+---
+
 ![order](https://user-images.githubusercontent.com/16978473/138597365-5909bec5-a328-40b3-a5a8-b8a512cecfa3.jpg)
-
-
-
-~~~ npm init vite-app order ~~~
-cd order
-npm install
-npm install vue-router@next
-npm install vuex@next --save
-npm install es6-promise --save
-git init
-add .gitignore + text
-npm install --save-dev @vue/cli-service
-vue add router
-npm run dev
-npm install --save element-plus
-npx vue-cli-service build
-fy-lambda
