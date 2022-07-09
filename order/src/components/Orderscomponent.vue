@@ -4,12 +4,7 @@
       Приходы /
       {{ orders.length }}
     </h1>
-    <el-card
-      class="el-card-order"
-      shadow="hover"
-      v-for="item in orders"
-      :key="item"
-    >
+    <el-card class="el-card-order" shadow="hover" v-for="item in orders" :key="item">
       <div class="nameOrder">
         {{ item.description }}
       </div>
@@ -31,20 +26,11 @@
         <span class="priceUAH"> {{ sumPriceUAH() }} UAH </span>
       </span>
       <i class="el-icon-delete"></i>
-      <i
-        v-bind:class="[
-          item.open ? 'bx bxs-chevron-left' : 'bx bxs-chevron-right',
-        ]"
-        style="color: #8bc34a"
-        @click="item.open = !item.open"
-      ></i>
+      <i v-bind:class="[
+        item.open ? 'bx bxs-chevron-left' : 'bx bxs-chevron-right',
+      ]" style="color: #8bc34a" @click="item.open = !item.open"></i>
       <el-dialog v-model="item.open">
-        <el-card
-          v-for="prod in item.getProducts"
-          :key="prod"
-          class="el-card-order"
-          shadow="hover"
-        >
+        <el-card v-for="prod in item.getProducts" :key="prod" class="el-card-order" shadow="hover">
           <img alt="product" :src="prod.photo" />
           <div class="wrapper-spec_sn">
             <span class="spec">
@@ -114,7 +100,7 @@ export default {
       flex-direction: row
       align-items: center
       i
-        margin-left: 50px
+        margin-left: 20px
       .totalPrice
         margin-left: 50px
         display: flex
@@ -125,7 +111,7 @@ export default {
           color: grey
           font-size: 11px
       .wrapper-time_date
-        margin-left: 50px
+        margin-left: 20px
         .time
           color: grey
           font-size: 11px

@@ -19,7 +19,7 @@ export default {
   justify-content: center
   height: 100%
   align-items: center
-  margin-left: 250px
+  margin-left: 50px
   p
     color: #8bc34a
     margin-left: 10px
